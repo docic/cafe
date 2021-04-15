@@ -1,0 +1,137 @@
+/*
+writter:Omar;
+theme:Cafe site,Mama tilie
+versio 1.0;
+
+*/
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, SansSerif;
+}
+
+.wrapper{
+
+
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.text-center{
+    text-align: center;
+
+}
+.clearfix{
+    float: none;
+    clear: both;
+
+}
+
+.tbl-full{
+
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: green;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.btn-secondary:hover{
+    background-color: gold;
+}
+
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+/* css for memu*/
+.menu{
+    border-bottom: solid darkred;
+}
+
+
+.menu ul{
+
+    list-style-type: none;
+
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #2f3542;
+
+}
+
+.menu ul li a:hover{
+    font-size: larger;
+}
+
+/*CSS FOR MAIM COMTEMT*/
+.main-content{
+
+    background-color: khaki;
+    padding: 3% 0;
+
+}
+.col-4{
+    width: 17%;
+    background-color: lightgray;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+
+}
+
+/* css for footer*/
+.footer{
+    background-color: #2f3542;
+    color: white;
+}
